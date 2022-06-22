@@ -19,7 +19,7 @@ resource "proxmox_vm_qemu" "vm-server" {
     memory = 2048
     scsihw = "virtio-scsi-pci"
     bootdisk = "scsi0"
-    define_connection_info = false
+    # define_connection_info = false
 
     disk {
         slot = 0

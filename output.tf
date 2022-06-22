@@ -1,5 +1,5 @@
-#output "instance_ip_address" {
-#  value = proxmox_vm_qemu.test_server.*.default_ipv4_address
+#output "instance_name_and_ip" {
+#  value = proxmox_vm_qemu.vm-server.*.default_ipv4_address
 #}
 
 #output "instance_name" {
